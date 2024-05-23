@@ -1,7 +1,7 @@
-<mxfile host="app.diagrams.net" modified="2024-05-21T17:54:14.230Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="mRSW5yliR9kyUOmlvc4i" version="24.4.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-05-23T02:48:51.930Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="YNUpDNrecfLsyJuSHvlW" version="24.4.3" type="github" pages="2">
   <diagram name="Page-1" id="xUA3Y_YOHLh1f9uY_yVV" />
   <diagram id="UvIau8gF1Ex1ocF8ayJ-" name="Page-2">
-    <mxGraphModel dx="1144" dy="476" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="841" dy="1472" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -24,8 +24,14 @@
         <mxCell id="2nF5nvLDkmd4D5AOAUGP-1" value="promotions-dataloader" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="450" y="170" width="140" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="2nF5nvLDkmd4D5AOAUGP-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2nF5nvLDkmd4D5AOAUGP-2" target="2nF5nvLDkmd4D5AOAUGP-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="2nF5nvLDkmd4D5AOAUGP-2" value="Promotions Interface" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="768" y="90" width="172" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2nF5nvLDkmd4D5AOAUGP-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2nF5nvLDkmd4D5AOAUGP-4" target="2nF5nvLDkmd4D5AOAUGP-31">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="2nF5nvLDkmd4D5AOAUGP-4" value="Forecast Interface" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="770" y="260" width="170" height="60" as="geometry" />
@@ -77,14 +83,57 @@
         <mxCell id="2nF5nvLDkmd4D5AOAUGP-24" value="Edit Message" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="70" y="590" width="60" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="2nF5nvLDkmd4D5AOAUGP-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="2nF5nvLDkmd4D5AOAUGP-29" target="2nF5nvLDkmd4D5AOAUGP-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2nF5nvLDkmd4D5AOAUGP-41" value="Calculate Forecast" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="2nF5nvLDkmd4D5AOAUGP-40">
+          <mxGeometry x="-0.0815" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="2nF5nvLDkmd4D5AOAUGP-26" value="id" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="30" y="90" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2nF5nvLDkmd4D5AOAUGP-29" value="Sales History Data" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1415" y="-60" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="2nF5nvLDkmd4D5AOAUGP-27" value="id" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="810" y="40" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="2nF5nvLDkmd4D5AOAUGP-29" value="Sales History Data" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1150" y="250" width="100" height="60" as="geometry" />
+        <mxCell id="2nF5nvLDkmd4D5AOAUGP-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="2nF5nvLDkmd4D5AOAUGP-31" target="2nF5nvLDkmd4D5AOAUGP-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2nF5nvLDkmd4D5AOAUGP-47" value="Forecast Data (Issue)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="2nF5nvLDkmd4D5AOAUGP-46">
+          <mxGeometry x="-0.0444" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2nF5nvLDkmd4D5AOAUGP-31" value="Forecast&lt;br&gt;db" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="250" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="2nF5nvLDkmd4D5AOAUGP-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2nF5nvLDkmd4D5AOAUGP-33" target="2nF5nvLDkmd4D5AOAUGP-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2nF5nvLDkmd4D5AOAUGP-33" value="Creating Promotion" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="90" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2nF5nvLDkmd4D5AOAUGP-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2nF5nvLDkmd4D5AOAUGP-35" target="2nF5nvLDkmd4D5AOAUGP-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2nF5nvLDkmd4D5AOAUGP-35" value="DESP" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1240" y="90" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2nF5nvLDkmd4D5AOAUGP-38" value="Forecast Interface" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1380" y="90" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2nF5nvLDkmd4D5AOAUGP-42" value="Forecast Interface" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="955" y="420" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2nF5nvLDkmd4D5AOAUGP-43" value="UI" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="960" y="540" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2nF5nvLDkmd4D5AOAUGP-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="2nF5nvLDkmd4D5AOAUGP-43" target="2nF5nvLDkmd4D5AOAUGP-42">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
