@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-31T04:31:43.926Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="Z-LPFJZ7ig6qBM3MvWdP" version="24.4.10" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-05T14:38:06.117Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="i0pQ_d_Fy8FWQlXJOaMX" version="24.4.13" type="github" pages="2">
   <diagram name="Architecture" id="N8fSKGcY9x_Tl_vTIMPp">
     <mxGraphModel dx="1271" dy="576" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -92,6 +92,29 @@
         </mxCell>
         <mxCell id="FHGalAbFuoc8T1lsBd9c-30" value="Cache" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="900" y="490" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="XQLEqobF-wGDPLcMahkd" name="API Work">
+    <mxGraphModel dx="584" dy="334" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Ejkaqmo0biWFh1LX53G8-1" value="UI Work" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ejkaqmo0biWFh1LX53G8-2" value="Backend Updates" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ejkaqmo0biWFh1LX53G8-3" value="Contract Finalize" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ejkaqmo0biWFh1LX53G8-4" value="Data Updates" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ejkaqmo0biWFh1LX53G8-5" value="Interface Updates" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="210" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
