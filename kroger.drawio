@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-05T14:43:01.173Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="O7nBA5J_VPEYi4GUlbsH" version="24.4.13" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-06-06T17:42:07.320Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="lMUhHtZ9xX-vseYWJK7I" version="24.4.14" type="github" pages="4">
   <diagram name="Architecture" id="N8fSKGcY9x_Tl_vTIMPp">
     <mxGraphModel dx="1271" dy="576" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -155,6 +155,48 @@
         <mxCell id="Ejkaqmo0biWFh1LX53G8-14" value="Save Forecast&lt;div&gt;Backend&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="777.5" y="310" width="120" height="60" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Tw1pure44zrIwHEqrlmL" name="Page-3">
+    <mxGraphModel dx="869" dy="364" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="3hWf2YCzJKGUQH03N39N-1" value="Forecast Data" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3hWf2YCzJKGUQH03N39N-2" value="db" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="450" y="290" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3hWf2YCzJKGUQH03N39N-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="3hWf2YCzJKGUQH03N39N-1" target="3hWf2YCzJKGUQH03N39N-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="480" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3hWf2YCzJKGUQH03N39N-4" value="pySpark Jobs" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3hWf2YCzJKGUQH03N39N-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="3hWf2YCzJKGUQH03N39N-4" target="3hWf2YCzJKGUQH03N39N-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="480" y="490" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3hWf2YCzJKGUQH03N39N-6" value="db" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="690" y="290" width="60" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="7p57kWtL8moHjj8op_nV" name="Error">
+    <mxGraphModel dx="869" dy="364" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>
