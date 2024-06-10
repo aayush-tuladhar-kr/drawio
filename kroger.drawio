@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-10T18:24:04.523Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="XDim2sXI4VEF02teqSdj" version="24.5.2" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2024-06-10T18:42:55.416Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="_THSIeQY9PeuUmRnTETN" version="24.5.2" type="github" pages="6">
   <diagram name="Architecture" id="N8fSKGcY9x_Tl_vTIMPp">
     <mxGraphModel dx="1271" dy="576" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -286,8 +286,8 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="GLOxVR_opZDxEA8bQhZL" name="Page-6">
-    <mxGraphModel dx="1121" dy="1624" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+  <diagram id="GLOxVR_opZDxEA8bQhZL" name="Sync Back">
+    <mxGraphModel dx="1185" dy="1672" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -322,6 +322,23 @@
         <mxCell id="iwDmcskl6UL8gPBGXJzq-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="iwDmcskl6UL8gPBGXJzq-3" target="iwDmcskl6UL8gPBGXJzq-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="iwDmcskl6UL8gPBGXJzq-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="iwDmcskl6UL8gPBGXJzq-3" target="iwDmcskl6UL8gPBGXJzq-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="660" y="170" />
+              <mxPoint x="660" y="190" />
+              <mxPoint x="680" y="190" />
+              <mxPoint x="680" y="-80" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iwDmcskl6UL8gPBGXJzq-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="iwDmcskl6UL8gPBGXJzq-3" target="iwDmcskl6UL8gPBGXJzq-24">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="600" y="390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="iwDmcskl6UL8gPBGXJzq-3" value="Forecast Interface" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="540" y="170" width="120" height="60" as="geometry" />
         </mxCell>
@@ -337,7 +354,7 @@
           <mxGeometry x="540" y="10" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="iwDmcskl6UL8gPBGXJzq-5" value="Forecast Data" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="760" y="170" width="120" height="60" as="geometry" />
+          <mxGeometry x="790" y="170" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="iwDmcskl6UL8gPBGXJzq-8" value="ESP --&amp;gt; PPM" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="260" y="110" width="130" height="20" as="geometry" />
@@ -350,6 +367,21 @@
         </mxCell>
         <mxCell id="iwDmcskl6UL8gPBGXJzq-14" value="PPM --&amp;gt; Forecast" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="550" y="-160" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iwDmcskl6UL8gPBGXJzq-19" value="Forecast *" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iwDmcskl6UL8gPBGXJzq-20" value="Listen to DESP Topic" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="680" y="490" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="iwDmcskl6UL8gPBGXJzq-21" value="Publish to DESP Topic" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="680" y="530" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="iwDmcskl6UL8gPBGXJzq-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="iwDmcskl6UL8gPBGXJzq-24" target="iwDmcskl6UL8gPBGXJzq-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iwDmcskl6UL8gPBGXJzq-24" value="Kafka" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="360" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
