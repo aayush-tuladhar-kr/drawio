@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-05T14:56:31.913Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="TNWIskxQorZxKs9owvg_" version="24.6.4" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2024-07-05T15:17:20.559Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="kTZeTxUrbxUdEM7jn548" version="24.6.4" type="github" pages="11">
   <diagram name="Architecture" id="N8fSKGcY9x_Tl_vTIMPp">
     <mxGraphModel dx="1271" dy="576" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -735,6 +735,77 @@
         </mxCell>
         <mxCell id="VimVren1yXGoOy-3qXLM-14" value="CD" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="430" y="30" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="3CupnvnT37J6lJ7_e98l" name="Promotion Update">
+    <mxGraphModel dx="1127" dy="590" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="VYVpcNO_oso4G_l8SQNk-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="VYVpcNO_oso4G_l8SQNk-8" target="VYVpcNO_oso4G_l8SQNk-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VYVpcNO_oso4G_l8SQNk-11" value="DESP" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="VYVpcNO_oso4G_l8SQNk-10">
+          <mxGeometry x="-0.225" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VYVpcNO_oso4G_l8SQNk-8" value="Promotions" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VYVpcNO_oso4G_l8SQNk-9" value="Forecast&lt;br&gt;Interface" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VYVpcNO_oso4G_l8SQNk-12" value="CREATE" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="160" y="130" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VYVpcNO_oso4G_l8SQNk-13" value="&lt;span class=&quot;Apple-converted-space&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&quot;effectiveRetail&quot;&lt;/span&gt;: null,&#xa;&lt;span class=&quot;Apple-converted-space&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&quot;effectiveCost&quot;&lt;/span&gt;: null," style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="120" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="VYVpcNO_oso4G_l8SQNk-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="VYVpcNO_oso4G_l8SQNk-16" target="VYVpcNO_oso4G_l8SQNk-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VYVpcNO_oso4G_l8SQNk-15" value="DESP" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="VYVpcNO_oso4G_l8SQNk-14">
+          <mxGeometry x="-0.225" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VYVpcNO_oso4G_l8SQNk-16" value="Promotions" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VYVpcNO_oso4G_l8SQNk-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="VYVpcNO_oso4G_l8SQNk-17" target="VYVpcNO_oso4G_l8SQNk-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VYVpcNO_oso4G_l8SQNk-22" value="POST /forecast" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="VYVpcNO_oso4G_l8SQNk-21">
+          <mxGeometry x="-0.1091" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VYVpcNO_oso4G_l8SQNk-17" value="Forecast&lt;br&gt;Interface" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VYVpcNO_oso4G_l8SQNk-18" value="UPDATE" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="650" y="130" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VYVpcNO_oso4G_l8SQNk-19" value="&lt;span class=&quot;Apple-converted-space&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&quot;effectiveRetail&quot;&lt;/span&gt;: null,&#xa;&lt;span class=&quot;Apple-converted-space&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&quot;effectiveCost&quot;&lt;/span&gt;: null," style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="120" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="VYVpcNO_oso4G_l8SQNk-20" value="Forecast Data" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VYVpcNO_oso4G_l8SQNk-23" value="PUT /forecast" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="830" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="VYVpcNO_oso4G_l8SQNk-25" value="Multi Plan" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="440" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VYVpcNO_oso4G_l8SQNk-26" value="PUT /forecast-update" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="330" y="580" width="150" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="VYVpcNO_oso4G_l8SQNk-27" value="Save Progress" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="780" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
