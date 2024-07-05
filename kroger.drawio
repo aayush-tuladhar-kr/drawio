@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-03T17:15:07.539Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="vLrttWrw-1VdP687xF7O" version="24.6.3" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2024-07-05T14:56:31.913Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="TNWIskxQorZxKs9owvg_" version="24.6.4" type="github" pages="10">
   <diagram name="Architecture" id="N8fSKGcY9x_Tl_vTIMPp">
     <mxGraphModel dx="1271" dy="576" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -688,6 +688,53 @@
         </mxCell>
         <mxCell id="VUrQbUTFDysdkGa3APsu-26" value="Promo Method" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="890" y="880" width="100" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="LJC-UCjWK1rB8hDcYhvh" name="Deployment">
+    <mxGraphModel dx="1146" dy="549" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="VimVren1yXGoOy-3qXLM-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VimVren1yXGoOy-3qXLM-1" target="VimVren1yXGoOy-3qXLM-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VimVren1yXGoOy-3qXLM-1" value="Git" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="102.5" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VimVren1yXGoOy-3qXLM-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VimVren1yXGoOy-3qXLM-2" target="VimVren1yXGoOy-3qXLM-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VimVren1yXGoOy-3qXLM-2" value="Harness" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="87.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VimVren1yXGoOy-3qXLM-3" value="CI" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="250" y="30" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VimVren1yXGoOy-3qXLM-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VimVren1yXGoOy-3qXLM-4" target="VimVren1yXGoOy-3qXLM-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VimVren1yXGoOy-3qXLM-4" value="Rancher" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="425" y="87.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VimVren1yXGoOy-3qXLM-5" value="K8s" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="90" width="140" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="VimVren1yXGoOy-3qXLM-6" value="Application Properties&lt;br&gt;Define" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="200" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="VimVren1yXGoOy-3qXLM-7" value="Config" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VimVren1yXGoOy-3qXLM-8" value="Helm Charts" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="425" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VimVren1yXGoOy-3qXLM-9" value="&lt;div style=&quot;background-color:#1e1f22;color:#bcbec4&quot;&gt;&lt;pre style=&quot;font-family:&#39;JetBrains Mono&#39;,monospace;font-size:9.8pt;&quot;&gt;${&lt;span style=&quot;color:#cf8e6d;&quot;&gt;PRODUCER_ENABLED&lt;/span&gt;}&lt;/pre&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="290" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="VimVren1yXGoOy-3qXLM-14" value="CD" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="430" y="30" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
