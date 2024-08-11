@@ -951,7 +951,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="6iDgdNFoLihuWBooMjD4" name="Page-13">
-    <mxGraphModel dx="2575" dy="652" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2482" dy="652" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -996,9 +996,6 @@
         </mxCell>
         <mxCell id="DeJs9qG1q5pKdQcMENmo-8" value="legacyId&lt;br&gt;ESP" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-90" y="290" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="DeJs9qG1q5pKdQcMENmo-14" value="header: source = PPM, body:source = PPM" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="490" y="510" width="310" height="45" as="geometry" />
         </mxCell>
         <mxCell id="Ah0xWcpkkfNwRC2UEUn1-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="DeJs9qG1q5pKdQcMENmo-16" target="DeJs9qG1q5pKdQcMENmo-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
